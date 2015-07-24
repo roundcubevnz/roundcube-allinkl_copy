@@ -1,0 +1,25 @@
+{
+    "name": "toddy/allinkl_copy",
+    "type": "roundcube-plugin",
+    "description": "Enable users to change their e-mail copy receivers on allinkl-servers.",
+    "keywords": ["mail","settings"],
+    "homepage": "https://github.com/toddy15/allinkl_copy",
+    "license": "GPLv3+",
+    "authors": [
+        {
+            "name": "Dr. Tobias Quathamer",
+            "email": "t.quathamer@mailbox.org",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}
