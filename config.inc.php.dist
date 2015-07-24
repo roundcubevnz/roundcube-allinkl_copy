@@ -1,0 +1,11 @@
+<?php
+
+// Allinkl mail copy options
+// --------------------------
+
+// KAS username which manages the mail accounts (starting with w)
+$config['allinkl_copy_user'] = 'w0123456';
+// KAS password (password for the KAS user)
+$config['allinkl_copy_passwd'] = 'my_secret_password';
+
+?>
