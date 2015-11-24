@@ -182,7 +182,7 @@ class allinkl_copy extends rcube_plugin
                 'SessionUpdateLifeTime' => 'Y'
             ]);
         } catch (SoapFault $fault) {
-            raise_error([
+            rcmail::raise_error([
                 'code' => 600,
                 'type' => 'php',
                 'file' => __FILE__,
@@ -202,7 +202,7 @@ class allinkl_copy extends rcube_plugin
                 'KasRequestParams' => $parameters
             ]));
         } catch (SoapFault $fault) {
-            raise_error([
+            rcmail::raise_error([
                 'code' => 600,
                 'type' => 'php',
                 'file' => __FILE__,
